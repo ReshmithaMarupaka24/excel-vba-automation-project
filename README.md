@@ -5,6 +5,7 @@ This 7-part Excel-based project demonstrates the power of VBA and Macros in auto
 
 ---
 ## 📚 Table of Contents
+
 1. [Part 1: Macro Recorder, VBA Concepts & Logic Statements](#part-1-macro-recorder-vba-concepts--logic-statements)
 2. [Part 2: Moving Beyond the Basics and Into VBA](#part-2-moving-beyond-the-basics-and-into-vba)
 3. [Part 3: Preparing and Cleaning Up Data with VBA](#part-3-preparing-and-cleaning-up-data-with-vba)
@@ -12,6 +13,7 @@ This 7-part Excel-based project demonstrates the power of VBA and Macros in auto
 5. [Part 5: Bringing It All Together – Weekly Report](#part-5-bringing-it-all-together--weekly-report)
 6. [Part 6: Working with Excel VBA User Forms](#part-6-working-with-excel-vba-user-forms)
 7. [Part 7: Importing Data from Text Files](#part-7-importing-data-from-text-files)
+
 
 
 ---
@@ -74,6 +76,17 @@ In this section, we move past macro recording and begin writing more customized 
   ```vba
   Range("A2:D20").Sort Key1:=Range("B2"), Order1:=xlAscending, Header:=xlYes
 
+### 📸 Screenshots
+
+
+#### 🖱️ User-Friendly Sort Button
+![Sort Button](part-2/user_friendly_SortButton.png)
+
+#### 🧑‍💻 User Input for Dynamic Sorting
+![User Input](part-2/userinput.png)
+
+#### 🧮 Sorting Example in Action
+![Sorting Example](part-2/sorting_example.png)
 
 ---
 
