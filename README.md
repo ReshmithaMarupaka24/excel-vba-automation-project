@@ -46,8 +46,25 @@ By the end of this part, you’ll be able to:
 
 ---
 
-## 🚧 Part 2: Moving Beyond the Basics and Into VBA
-> Coming soon: Exploring custom functions, working with events, and modular code design.
+## ✅ Part 2: Moving Beyond the Basics and Into VBA
+
+In this section, we move past macro recording and begin writing more customized VBA code. This part introduces how to manipulate Excel’s object model directly, build reusable procedures, and create interactive workflows with buttons.
+
+### 🔹 Key Skills Covered
+- Writing subroutines without macro recording
+- Using Excel object references (`Range`, `Cells`, `Rows`)
+- Automating sorting of tabular data
+- Assigning VBA macros to buttons for interaction
+- Improving code readability with structure and comments
+
+### 📂 File Included
+- `SortingRecords.xlsm`: Demonstrates how to write VBA code to sort a range of records and assign that macro to a button on the sheet.
+
+### 🧰 Concepts Introduced
+- **VBA Sort Method**:
+  ```vba
+  Range("A2:D20").Sort Key1:=Range("B2"), Order1:=xlAscending, Header:=xlYes
+
 
 ---
 
