@@ -1,2 +1,98 @@
 # excel-vba-automation-project
 This 7-part Excel-based project demonstrates the power of VBA and Macros in automating data-related tasks. Each part builds upon the previous one, introducing increasingly complex functionality — from cleaning and transforming data to automating weekly reports and working with user forms.
+
+> ⚙️ Tools used: Microsoft Excel, Excel Macros, VBA
+
+---
+
+## 📚 Table of Contents
+1. [Part 1: Macro Recorder, VBA Concepts & Logic Statements](#part-1-macro-recorder-vba-concepts--logic-statements)
+2. [Part 2: Moving Beyond the Basics and Into VBA](#part-2-moving-beyond-the-basics-and-into-vba)
+3. [Part 3: Preparing and Cleaning Up Data with VBA](#part-3-preparing-and-cleaning-up-data-with-vba)
+4. [Part 4: Using VBA to Automate Excel Formulas](#part-4-using-vba-to-automate-excel-formulas)
+5. [Part 5: Bringing It All Together – Weekly Report](#part-5-bringing-it-all-together--weekly-report)
+6. [Part 6: Working with Excel VBA User Forms](#part-6-working-with-excel-vba-user-forms)
+7. [Part 7: Importing Data from Text Files](#part-7-importing-data-from-text-files)
+
+---
+
+## ✅ Part 1: Macro Recorder, VBA Concepts & Logic Statements
+
+In this section, we introduce the foundational concepts of Excel automation using the Macro Recorder and VBA. It's ideal for beginners transitioning from manual Excel tasks to programmable workflows.
+
+### 🔹 Key Skills Covered
+- Recording macros to automate repetitive Excel tasks
+- Understanding generated VBA code from macros
+- Using the VBA editor to modify and write procedures
+- Implementing control flow using `If`, `Else`, `For`, `Do While`, and `Do Until` loops
+- Working with Excel Object Model (Workbook, Worksheet, Range)
+
+### 📂 Files Included
+- `COM-InsertingAndFormattingText.xlsm`: Demonstrates macro-recorded automation for inserting and formatting cells
+- `COM-ExcelVBALoops.xlsm`: Showcases various loop constructs in VBA to manipulate Excel data dynamically
+
+### 🧰 Concepts Introduced
+- **Macro Recorder**: Automatically generates VBA code based on recorded actions in Excel
+- **VBA (Visual Basic for Applications)**: Object-oriented programming language integrated with Excel
+- **Object Model**: Hierarchical structure of Excel elements that VBA interacts with
+- **Procedures & Modules**: Basic building blocks for reusable and organized code
+
+### 🎯 Learning Outcome
+By the end of this part, you’ll be able to:
+- Record and review macros
+- Write and execute your first VBA procedure
+- Use conditional logic and loops
+- Automate common cell-level tasks like formatting and text insertion
+
+---
+
+## 🚧 Part 2: Moving Beyond the Basics and Into VBA
+> Coming soon: Exploring custom functions, working with events, and modular code design.
+
+---
+
+## 🚧 Part 3: Preparing and Cleaning Up Data with VBA
+> Coming soon: Automating data cleaning routines, removing duplicates, trimming spaces, and handling missing values.
+
+---
+
+## 🚧 Part 4: Using VBA to Automate Excel Formulas
+> Coming soon: Inserting and updating Excel formulas using VBA based on data context.
+
+---
+
+## 🚧 Part 5: Bringing It All Together – Weekly Report
+> Coming soon: Combining automation routines to generate a clean, formatted weekly report with minimal manual effort.
+
+---
+
+## 🚧 Part 6: Working with Excel VBA User Forms
+> Coming soon: Creating custom user interfaces in Excel for better data entry and interaction.
+
+---
+
+## 🚧 Part 7: Importing Data from Text Files
+> Coming soon: Reading and parsing .txt and .csv files using VBA, with data validation and formatting steps.
+
+---
+
+## 🧠 Summary of Skills Demonstrated
+- Excel Macros and VBA Basics
+- Data Cleaning and Transformation
+- Looping and Conditional Logic
+- Dynamic Reporting
+- UI/UX with Excel UserForms
+- File I/O with VBA
+
+---
+
+## 📸 Screenshots
+> Add screenshots of macro execution, forms, and final reports in the `/screenshots` folder and link them here.
+
+---
+
+## 🔗 Author
+Reshmitha Marupaka  
+Master's in Business Analytics and Artificial Intelligence, University of Texas at Dallas  
+[LinkedIn](https://www.linkedin.com/in/reshmitham/) | GitHub: https://github.com/ReshmithaMarupaka24
+
