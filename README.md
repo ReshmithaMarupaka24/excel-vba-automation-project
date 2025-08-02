@@ -126,6 +126,7 @@ This part focuses on automating **data cleanup across multiple sheets** using cu
 ![Formatted Example 2](Part-3/format_macro_ex-2.png)
 
 
+
 ---
 
 ## Part 4: Using VBA to Automate Excel Formulas
