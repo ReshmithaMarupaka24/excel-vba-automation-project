@@ -128,7 +128,35 @@ This part focuses on automating **data cleanup across multiple sheets** using cu
 ---
 
 ## Part 4: Using VBA to Automate Excel Formulas
-> Coming soon: Inserting and updating Excel formulas using VBA based on data context.
+
+This part introduces how to programmatically insert Excel formulas using VBA. Specifically, it focuses on automatically calculating column totals across multiple worksheets — dynamically detecting the range and inserting `=SUM(...)` where needed.
+
+### 🔹 Key Skills Covered
+- Writing VBA to insert Excel formulas dynamically
+- Using `End(xlDown)` and `Offset` to locate the last row of data
+- Referencing cell addresses and creating formula strings
+- Looping through multiple worksheets and applying calculations
+
+### 📂 File Included
+- `AutomateSumFunction.xlsm`: Demonstrates automated insertion of SUM formulas into each worksheet (East, West, South, North).
+
+### 🧰 Concepts Introduced
+- **Dynamic Formula Creation**:
+  ```vba
+  lastCell = ActiveCell.Address(False, False)
+  ActiveCell.Offset(1, 0).Select
+  ActiveCell.Value = "=sum(F2:" & lastCell & ")"
+
+### 📸 Screenshots
+
+#### 🔍 Before Automation
+![Before Automation](Part-4/Before_automation.png)
+
+#### ✅ Formula Applied – Example 1
+![SUM Example 1](Part-4/Sum_automation_ex1.png)
+
+#### ✅ Formula Applied – Example 2
+![SUM Example 2](Part-4/Sum_automation_ex2.png)
 
 ---
 
