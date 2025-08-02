@@ -113,18 +113,16 @@ This part focuses on automating **data cleanup across multiple sheets** using cu
       FormatHeader
   Next ws
 
-
 ### 📸 Screenshots
 
 #### 🔍 Before Running the Macro
-![Before Running Macro](Part-3/before_running_macro.png)
+![Before Running Macro](Part-3/before_running_macro.jpg)
 
 #### ✅ After Running the Macro – View 1
-![Formatted Example 1](Part-3/format_macro_ex-1.png)
+![Formatted Example 1](Part-3/format_macro_ex-1.jpg)
 
 #### ✅ After Running the Macro – View 2
-![Formatted Example 2](Part-3/format_macro_ex-2.png)
-
+![Formatted Example 2](Part-3/format_macro_ex-2.jpg)
 
 
 ---
