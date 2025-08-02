@@ -18,7 +18,7 @@ This 7-part Excel-based project demonstrates the power of VBA and Macros in auto
 
 ---
 
-## ✅ Part 1: Macro Recorder, VBA Concepts & Logic Statements
+## Part 1: Macro Recorder, VBA Concepts & Logic Statements
 
 In this section, we introduce the foundational concepts of Excel automation using the Macro Recorder and VBA. It's ideal for beginners transitioning from manual Excel tasks to programmable workflows.
 
@@ -57,7 +57,7 @@ By the end of this part, you’ll be able to:
 
 ---
 
-## ✅ Part 2: Moving Beyond the Basics and Into VBA
+## Part 2: Moving Beyond the Basics and Into VBA
 
 In this section, we move past macro recording and begin writing more customized VBA code. This part introduces how to manipulate Excel’s object model directly, build reusable procedures, and create interactive workflows with buttons.
 
@@ -90,27 +90,27 @@ In this section, we move past macro recording and begin writing more customized 
 
 ---
 
-## 🚧 Part 3: Preparing and Cleaning Up Data with VBA
+## Part 3: Preparing and Cleaning Up Data with VBA
 > Coming soon: Automating data cleaning routines, removing duplicates, trimming spaces, and handling missing values.
 
 ---
 
-## 🚧 Part 4: Using VBA to Automate Excel Formulas
+## Part 4: Using VBA to Automate Excel Formulas
 > Coming soon: Inserting and updating Excel formulas using VBA based on data context.
 
 ---
 
-## 🚧 Part 5: Bringing It All Together – Weekly Report
+## Part 5: Bringing It All Together – Weekly Report
 > Coming soon: Combining automation routines to generate a clean, formatted weekly report with minimal manual effort.
 
 ---
 
-## 🚧 Part 6: Working with Excel VBA User Forms
+## Part 6: Working with Excel VBA User Forms
 > Coming soon: Creating custom user interfaces in Excel for better data entry and interaction.
 
 ---
 
-## 🚧 Part 7: Importing Data from Text Files
+## Part 7: Importing Data from Text Files
 > Coming soon: Reading and parsing .txt and .csv files using VBA, with data validation and formatting steps.
 
 ---
