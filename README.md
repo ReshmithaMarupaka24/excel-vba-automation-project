@@ -161,7 +161,38 @@ This part introduces how to programmatically insert Excel formulas using VBA. Sp
 ---
 
 ## Part 5: Bringing It All Together – Weekly Report
-> Coming soon: Combining automation routines to generate a clean, formatted weekly report with minimal manual effort.
+
+This part combines everything built so far into a complete automation workflow. It consolidates cleaned, formatted, and totaled data from regional worksheets (East, West, North, South) into a master `YEARLY REPORT` sheet — fully automated with VBA.
+
+### 🔹 Key Skills Covered
+- Looping through all sheets while excluding the report sheet
+- Copying and appending data from multiple worksheets
+- Calling reusable macros (`InsertHeaders`, `FormatHeaders`, `AutomateTotalSUM`)
+- Automatically applying `=SUM()` formulas to the totals
+- Controlling logic with a first-time boolean flag
+
+### 📂 File Included
+- `QuarterlyReport.xlsm`: The fully automated workbook generating the final report.
+
+### 🧰 Concepts Introduced
+- **Worksheet Filtering**: Skipping the report sheet during the loop 
+  ```vba
+     If ws.Name <> "YEARLY REPORT" Then
+            InsertHeaders
+            FormatHeaders
+            AutomateTotalSUM
+       
+### 📸 Screenshots
+#### 🟤 Before Running the Macro
+![Empty Yearly Report](Part-5/Empty_yearly%20report.png)
+
+#### ✅ After Data Consolidation and Formatting
+![Formatted Yearly Report](Part-5/Yearly_report_formated.png)
+
+#### 📊 After AutoSUM Applied
+![Yearly Totals with AutoSUM](Part-5/Yearly_report_autosummed.png)
+
+
 
 ---
 
