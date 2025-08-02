@@ -114,6 +114,18 @@ This part focuses on automating **data cleanup across multiple sheets** using cu
   Next ws
 
 
+### 📸 Screenshots
+
+#### 🔍 Before Running the Macro
+![Before Running Macro](part-3/before_running_macro.jpg)
+
+#### ✅ After Running the Macro – View 1
+![Formatted Example 1](part-3/format_macro_ex-1.jpg)
+
+#### ✅ After Running the Macro – View 2
+![Formatted Example 2](part-3/format_macro_ex-2.jpg)
+
+
 ---
 
 ## Part 4: Using VBA to Automate Excel Formulas
