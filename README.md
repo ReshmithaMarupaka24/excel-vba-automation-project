@@ -91,7 +91,28 @@ In this section, we move past macro recording and begin writing more customized 
 ---
 
 ## Part 3: Preparing and Cleaning Up Data with VBA
-> Coming soon: Automating data cleaning routines, removing duplicates, trimming spaces, and handling missing values.
+
+This part focuses on automating **data cleanup across multiple sheets** using custom VBA procedures. You'll loop through worksheets, insert headers where missing, and apply consistent formatting — all with a single macro execution.
+
+### 🔹 Key Skills Covered
+- Looping through worksheets using `For Each`
+- Dynamically checking for and inserting missing headers
+- Reusable formatting of headers via a modular macro
+- Structuring code for maintainability
+
+### 📂 File Included
+- `CleaningUpData.xlsm`: Automates cleanup and formatting across regional Excel sheets (East, West, North, South).
+
+### 🧰 Concepts Introduced
+- **Looping Over Worksheets**:
+  ```vba
+  For Each ws In Worksheets
+      If Range("A1").Value <> "Division" Then
+          InsertHeaders
+      End If
+      FormatHeader
+  Next ws
+
 
 ---
 
