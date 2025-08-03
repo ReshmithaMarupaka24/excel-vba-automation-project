@@ -1,5 +1,5 @@
 # excel-vba-automation-project
-This 7-part Excel-based project demonstrates the power of VBA and Macros in automating data-related tasks. Each part builds upon the previous one, introducing increasingly complex functionality — from cleaning and transforming data to automating weekly reports and working with user forms.
+This 6-part Excel-based project demonstrates the power of VBA and Macros in automating data-related tasks. Each part builds upon the previous one, introducing increasingly complex functionality — from cleaning and transforming data to automating weekly reports and working with user forms.
 
 > ⚙️ Tools used: Microsoft Excel, Excel Macros, VBA
 
@@ -241,11 +241,7 @@ This enhances user experience by adding interactivity to the automation.
 - `COM-QuarterlyReportForm-01.xlsm` – Final macro-enabled file with userform
 - Supporting screenshots
 
----
----
 
-## Part 7: Importing Data from Text Files
-> Coming soon: Reading and parsing .txt and .csv files using VBA, with data validation and formatting steps.
 
 ---
 
@@ -255,12 +251,7 @@ This enhances user experience by adding interactivity to the automation.
 - Looping and Conditional Logic
 - Dynamic Reporting
 - UI/UX with Excel UserForms
-- File I/O with VBA
 
----
-
-
----
 
 ## 🔗 Author
 Reshmitha Marupaka  
