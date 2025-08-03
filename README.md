@@ -197,7 +197,54 @@ This part combines everything built so far into a complete automation workflow. 
 ---
 
 ## Part 6: Working with Excel VBA User Forms
-> Coming soon: Creating custom user interfaces in Excel for better data entry and interaction.
+
+### 🎯 Objective
+In this part, we created a **UserForm interface** to allow users to:
+- Select a worksheet from a dropdown
+- Add a new worksheet dynamically
+- Generate the consolidated yearly report with one click
+
+This enhances user experience by adding interactivity to the automation.
+
+---
+
+### 🧰 Features Implemented
+- Custom UserForm with:
+  - Worksheet dropdown menu
+  - "Add Worksheet" button with input prompt and error handling
+  - "Run Report" button to call the automation macro
+- Error handling for invalid sheet names
+- Dynamic refresh of dropdown based on available worksheets
+
+---
+
+### 🖥️ Screenshots
+
+#### 🪟 UserForm Interface
+![UserForm Interface](Part-6/userform_display.png)
+
+#### 📂 Sheet Selection via Dropdown
+![Sheet Selection](Part-6/sheet_selection.png)
+
+#### 🧩 Dropdown Options Populated
+![Dropdown Options](Part-6/options_display.png)
+
+#### 🆕 New Sheet Creation
+![New Sheet Creation](Part-6/Newsheet_creation.png)
+
+#### 📑 Final Yearly Report
+![Yearly Report](Part-6/Yearly_report.png)
+
+---
+
+### 📁 Files Included
+- `COM-QuarterlyReportForm-01.xlsm` – Final macro-enabled file with userform
+- Supporting screenshots
+
+---
+
+✅ **Next Step**: Add data validation or improve the UserForm aesthetics with icons, colors, or additional controls.
+
 
 ---
 
